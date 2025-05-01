@@ -5,7 +5,7 @@ import numpy as np
 df = pd.read_csv("sample.csv")
 
 # Print the raw data
-print("📥 Raw Data:")
+print("Raw Data:")
 print(df)
 
 # Strip whitespace from column names
@@ -33,6 +33,6 @@ df.fillna("MISSING", inplace=True)
 # Save cleaned data
 df.to_csv("cleaned_sample.csv", index=False)
 
-print("\n✅ Cleaned CSV saved as 'cleaned_sample.csv'")
+print("\n Cleaned CSV saved as 'cleaned_sample.csv'")
 print('Here is the cleaned data:')
 print(df)
